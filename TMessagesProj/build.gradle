@@ -1,11 +1,5 @@
 apply plugin: 'com.android.application'
 
-repositories {
-    mavenCentral()
-    google()
-    jcenter()
-}
-
 configurations {
     compile.exclude module: 'support-v4'
 }
